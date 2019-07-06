@@ -1,3 +1,8 @@
+<div>
+<img src ='https://img.shields.io/badge/python-3.6.5-green.svg'>
+<img src ='https://img.shields.io/badge/PyQt5-5.12.3-blue.svg'>
+<img src ='https://img.shields.io/github/license/Has3ong/KaKao_Suwon.svg'>
+</div>
 # :dollar: 로또 번호 출력기
 
 ## 개발환경
