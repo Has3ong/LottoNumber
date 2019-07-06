@@ -8,6 +8,19 @@
 
 ## 기능
 
+<img width="400" src="https://user-images.githubusercontent.com/44635266/60759255-123e8280-a05d-11e9-8f90-28e33021b8fc.png">
+
 ### 랜덤 로또 번호 출력
 
+<img width="400" src="https://user-images.githubusercontent.com/44635266/60759274-66496700-a05d-11e9-980b-e5d08b834520.png">
+
 ### 번호별 통계 상위 10개 중 로또 번호 출력 
+
+<img width="400" src="https://user-images.githubusercontent.com/44635266/60759280-7d885480-a05d-11e9-82a8-87a550894a40.png">
+
+## 개발자
+
+- Kim Ha Seong
+
+### Comment
+- 심심해서 만들어 봤습니다.
