@@ -18,7 +18,7 @@
 
 ### 랜덤 로또 번호 출력
 
-<img width="400" src="https://user-images.githubusercontent.com/44635266/60759274-66496700-a05d-11e9-980b-e5d08b834520.png">
+<img width="400" src="https://user-images.githubusercontent.com/44635266/60766883-c33f2e80-a0ea-11e9-9329-52d4e71830c7.png">
 
 ### 번호별 통계 상위 10개 중 로또 번호 출력 
 
