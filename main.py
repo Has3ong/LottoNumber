@@ -46,14 +46,31 @@ class MyWindow(QWidget):
 
         for i in range(5):
             arr = []
+            use = [False] * 46
+            random.seed(random.randrange(1, 1000000))
             for j in range(5):
+
                 num = random.randrange(1, 46)
-                if num < 10:
-                    string = '0'
-                    string += str(num)
-                    arr.append(string)
+                if not use[num]:
+                    use[num] = True
+                    if num < 10:
+                        string = '0'
+                        string += str(num)
+                        arr.append(string)
+                    else:
+                        arr.append(str(num))
                 else:
-                    arr.append(str(num))
+                    while 1:
+                        num = random.randrange(1, 46)
+                        if not use[num]:
+                            use[num] = True
+                            if num < 10:
+                                string = '0'
+                                string += str(num)
+                                arr.append(string)
+                            else:
+                                arr.append(str(num))
+                            break
             arr.sort()
             Label += '  ' + str(Alphabet[i]) + '  자  동 ' + str(arr[0]) + ' ' + str(arr[1]) + ' '  + str(arr[2]) + ' '  + str(arr[3]) + ' '  + str(arr[4]) + '\n\n'
         Label += '-------------------------'
